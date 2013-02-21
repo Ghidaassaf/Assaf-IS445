@@ -1,14 +1,76 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1187.34">
-  <style type="text/css">
-  </style>
+<title> Reservation Form Demo</title>
+  	<link rel="stylesheet" type="text/css" href="mystyle.css />
 </head>
 <body>
+<article>
+<header>
+		<h1>Assaf, Ghida homework 2</h1>
+	<hr/>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="webformdemo.html">Web Form Demo</a>
+		<a href="aboutmyself.html">About Myself</a>
+	</nav>
+	</header>
+<h2>Welcome to My Web Form</h2>
+<h3>A Demo Form for Hotel Room Reservation</h3>
+<form>
+		<fieldset>
+			<legend>Customer Information</legend>
+			<label for"fullName">Full Name:</label>
+			<input type="text" id="fullName" name="fullName" placeholder="Firstname, Lastname" autofocus /><br />
+			<label for="Email">E-mail address:</label>
+			<input type="Email" id="Email" name="Email" /><br />
+			<label for="PhoneNumber">Phone:</label>
+			<input type="PhoneNumber" id="PhoneNumber" name="PhoneNumber" 
+		</fieldset>
+
+
+		<fieldset>
+			<legend>Room Information</legend>
+			<label for="ArrivalDate">Arrival Date:</label>
+			<input type="Date" id="ArrivalDate" name="ArrivalDate" required="required" /><br />
+			<label for="ArrivalTime">ArrivalTime:</label>
+			<input type="Time" id="ArrivalTime" name="ArrivalTime" required="required" /><br />
+			<label for="RoomType">Select a room type:</lable>
+			<select id="RoomType">
+					<option>Luxury</option>
+					<option>Standard</option>
+					<option>Economic</option>
+		</select>
+		</br>
+			<label for="NumberofNights">Number of Nights (Valid number is 1 to 30):</label>
+			<input type="Number" id="NumberofNights" name="NumberofNights" min="1" max="30" value="1" /><br />
+			<label for="NumberofGuests"Number of Guests (The maximum guests is 3):</label>
+			<input type="Number" id="NumberofGuests" name="NumberofGuests" min="1" value="0" />
+
+		</fieldset>
+		
+		<fieldset>
+			<legend>Other Information</legend>
+			<label for="PromoCode"> Promo Code:</label>
+			<input type="text" size="4" maxlength="4" id="PromoCode" name="PromoCode" title="Please enter your Promotion Code that consists of 4 alpha numeric (a-z, A-Z, or 0-9) characters" 
+/><br />
+			<label for="SpecialNotes">Special Notes:</label>
+			<textarea id="SpecialNotes" name="SpecialNotes" rows="6" cols="35" placeholder="Enter your special Notes here" >
+			</textarea>
+
+<fieldset>
+	<input type="reset" value="Clear Form" onclick="getfocus()" />
+	<input type="submit" value="Request Reservation"/>
+</form>
+<p></p>
+<footer>
+<span>Contact Information:</span>
+<address>
+<span>E-mail: </span>
+<a href="ghidaassaf@hotmail.com">ghidaassaf@hotmail.com</a><br />
+<span>Phone Number: 714-299-5333</span><br />
+</address>
+</footer>
+</article>
 </body>
 </html>
