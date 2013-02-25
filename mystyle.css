@@ -1,6 +1,6 @@
-About me Picture
+hr
         {
-	width: 500px;
+	width: 700px;
 	border: 0;
 	border-top: 5px solid #00cc99;
 	padding: 0;
@@ -18,3 +18,10 @@ footer table.foot {
 navigation a  {
 	font-size: 14px;
 	text-decoration: underline;
+
+
+About me picture {
+	padding-left: 6.5cm;
+	height: 270px;
+	width: 245px;
+	text-align: center;
