@@ -21,11 +21,12 @@
 		<fieldset>
 			<legend>Customer Information</legend>
 			<label for"fullName">Full Name:</label>
-			<input type="text" id="fullName" name="fullName" placeholder="Firstname, Lastname" autofocus /><br />
+			<input type="text" id="fullName" name="fullName" required="required" />
+placeholder="Firstname, Lastname" autofocus /><br />
 			<label for="Email">E-mail address:</label>
-			<input type="Email" id="Email" name="Email" /><br />
+			<input type="Email" id="Email" name="Email" required="required" /><br />
 			<label for="PhoneNumber">Phone:</label>
-			<input type="PhoneNumber" id="PhoneNumber" name="PhoneNumber"/></br>
+			<input type="PhoneNumber" id="PhoneNumber" name="PhoneNumber" required="required" /></br>
 		</fieldset>
 
 
@@ -52,7 +53,7 @@
 		<fieldset>
 			<legend>Other Information</legend>
 			<label for="PromoCode"> Promo Code:</label>
-			<input type="text" size="4" maxlength="4" id="PromoCode" name="PromoCode" title="Please enter your Promotion Code that consists of 4 alpha numeric (a-z, A-Z, or 0-9) characters" /><br />
+			<input type="text" size="4" maxlength="4" id="PromoCode" name="PromoCode" title="Please enter your Promotion Code that consists of 4 alpha numeric (a-z, A-Z, or 0-9) characters" required="required" /><br />
 			<label for="SpecialNotes">Special Notes:</label>
 			<textarea id="SpecialNotes" name="SpecialNotes" rows="6" cols="35" placeholder="Enter your special Notes here" >
 			</textarea>
