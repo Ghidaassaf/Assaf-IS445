@@ -1,9 +1,10 @@
-hr
+About me Picture
         {
-	width: 700px;
+	width: 500px;
 	border: 0;
 	border-top: 5px solid #00cc99;
 	padding: 0;
+	text-align: center;
         }
 navigation  table.nav{
 	margin-left:auto;
