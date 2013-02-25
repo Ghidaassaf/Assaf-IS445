@@ -18,6 +18,7 @@ footer table.foot {
 navigation a  {
 	font-size: 14px;
 	text-decoration: underline;
+}
 
 
 About me picture {
@@ -25,3 +26,11 @@ About me picture {
 	height: 270px;
 	width: 245px;
 	text-align: center;
+}
+
+Image {
+	background: url('IMG-8068.jpg')
+	height: 400px;
+	width: 200;
+}
+
