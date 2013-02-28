@@ -38,3 +38,14 @@ table {
 	padding-left: 10cm;
 }
 
+{
+body {
+	margin:20px 0px;
+	padding:0px;}
+	
+#container {
+	width:600px;
+	margin:0px auto;
+	padding:10px;
+	border:2px solid #5a9301;
+	background-color:#eee;}
