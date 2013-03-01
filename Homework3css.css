@@ -2,7 +2,7 @@
 <html>
 <head>
 <style>
-h2 {color:Blue;}
+h2 {color:00ff00;}
    {text-align:center;}
 h3 {color:red;}
    {text-align:center;}
@@ -30,8 +30,13 @@ background-color:white;
     padding:10px;
 }
 
-title {color= blue;}
-
-</style>
+homework1 picture img{
+border-bottom: 1px solid #000000;
+border-top: 4px solid #000000;
+display: block;
+float: right;
+height: 200px;
+width: 200px;
+}</style>
 </head>
 </html>
