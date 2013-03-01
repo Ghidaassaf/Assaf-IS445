@@ -6,6 +6,14 @@ h2 {color:Blue;}
    {text-align:center;}
 h3 {color:red;}
    {text-align:center;}
+
+article
+.center
+{
+margin:auto;
+width:600%;
+background-color:black;
+}
 </style>
 </head>
 </html>
