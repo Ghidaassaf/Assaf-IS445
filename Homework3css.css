@@ -2,7 +2,7 @@
 <html>
 <head>
 <style>
-h2 {color:00ff00;}
+h2 {color: purple;}
    {text-align:center;}
 h3 {color:red;}
    {text-align:center;}
@@ -30,13 +30,15 @@ background-color:white;
     padding:10px;
 }
 
-homework1 picture img{
+homework1 picture
+.img{
 border-bottom: 1px solid #000000;
 border-top: 4px solid #000000;
 display: block;
 float: right;
 height: 200px;
 width: 200px;
-}</style>
+}
+</style>
 </head>
 </html>
