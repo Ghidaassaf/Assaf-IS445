@@ -22,6 +22,7 @@ form {
 	line-height: 220%;
 	border: outset 5px #063918;
 	padding: 10px;
+	border-radius: 8px;
 
 }
 
@@ -29,7 +30,7 @@ h1 {
 	font-weight: bolder;
 	text-shadow: 1px 2px 2px #a2bf28;
 	font-size: 34px;
-	color: purple;
+	color: 990099;
 	text-align: center;
 }
 
@@ -43,7 +44,7 @@ h3 {
 	text-shadow: 1px 1px 1px #A80000 ;
 }
 
-li{
+li {
 	width: auto;
 	line-height: 150%;
 	
