@@ -111,7 +111,7 @@ figure {
 
 input, select, textarea {
 		font-size: 18px;
-		border-color: 0066CC;
+		border-color: #0066CC;
 		border-radius: 4px;
 		border-width: 1px;
 		padding: 2px;
@@ -122,7 +122,7 @@ input, select, textarea {
 		transition: all 0.8s ease-in-out;
 }
 	textarea:-moz-placeholder {
-			color: CC99CC;
+			color: #CC99CC;
 			font-style: italic;
 			text-shadow: 1px 1px 0 #ccc;
 	}
@@ -135,8 +135,76 @@ fieldset {
 legend {
 	font-size: 14px;
 	font-style: italic;
-	color: 330066;
+	color: #330066;
 	margin-left: 20px;
 	padding: 0 10px;
 	text-shadow: 1px 1px 0 #ccc;
+}
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+    color: #f8c57c;
+    font-weight: normal;
+}
+
+
+td {
+	font-family: static;
+	font-size: 20px;
+	color: #00CCCC;
+	text-shadow: 1px 1px 1px #00ccc;
+	text-align: left;
+}
+
+.Title {
+    font-family: 'Satisfy', serif;
+    font-size: 36px;
+    color: #FF00FF;
+    text-align: center;
+    text-shadow: 1px 1px 2px #FF00FF;
+}
+
+.goto {
+    font-size: 20px;
+    color: #FF6699;
+    text-shadow: 1px 1px 2px #FF6699;
+    margin-left: 20px;
+}
+
+    .goto:hover {
+        color: red;
+        text-decoration: underline;
+        text-transform: uppercase;
+        font-size: 20px;
+        text-shadow: 3px 3px 3px #FF33CC;
+        font-weight: bolder;
+}
+
+.welcome {
+	color: #339933;
+	font-size: 22px;
+	font-family: 'tangerine';
+}
+
+.phone {
+	margin-left: 20px;
+}
+
+.email {
+	margin-left: 20px;
+}
+
+.address {
+	padding-top: 5px;
+}
+
+.bottomLine {
+	border-top: double;
+	corder-color: black;
+	height: 0px;
+	background-color: transparent;
+}
+
+footer {
+	margin-bottom: 20px;
+	font-size: 14px;
 }
