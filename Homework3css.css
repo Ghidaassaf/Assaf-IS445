@@ -163,14 +163,14 @@ td {
     text-shadow: 1px 1px 2px #FF00FF;
 }
 
-.goto {
+.click {
     font-size: 20px;
     color: #FF6699;
     text-shadow: 1px 1px 2px #FF6699;
     margin-left: 20px;
 }
 
-    .goto:hover {
+    .click:hover {
         color: red;
         text-decoration: underline;
         text-transform: uppercase;
