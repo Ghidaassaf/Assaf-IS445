@@ -74,3 +74,39 @@ div {
 	line-height:80%
 }
 
+/*
+:invalid {
+	border-color: #78b20c;
+	box-shadow: 0 0 5px #cbd0d3;
+}
+*/
+
+input:focus, select:focus, textarea:focus {
+	background-color: #ffedb2;
+	font-weight: bolder;
+	color: blue;
+}
+
+table {
+	width: 380px;
+	margin: 0 auto;
+}
+
+.IMG8068 {
+	height: 200px;
+	float: right;
+	padding-top: 2em;
+}
+
+hr {
+	width: auto;
+	color: purple;
+	height: 8px;
+	background-color: purple;
+}
+
+figure {
+	text-align: center;
+}
+
+
