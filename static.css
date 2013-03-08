@@ -1,0 +1,63 @@
+body
+	{
+	margin-right:auto;
+	margin-left: auto;
+	width: 1120px;
+	}
+
+nav
+	{
+	text-align:center;
+	width: 1120px;
+	height: 30px;
+	background-color: green;
+	}
+		nav li
+			{
+				display: inline;
+				margin:30px;
+				}
+				nav li a:link
+				{
+				color: white;
+				}
+
+header
+	{
+	text-align: center;
+	height: 30px;
+	color: white;
+	width: 1120px;
+	background-color: blue;
+	}
+
+aside 
+	{
+	color: white;
+	width: 400px;
+	background-color: blue;
+	height: 275px;
+	}
+
+article
+	{
+	width: 720px;
+	color: white;
+	background-color: pink;
+	}
+		article section 
+		{
+		color: white;
+		background-color: brown;
+		height: 100px;
+		margin: 20px 0px 20px;
+		}
+
+footer
+	{
+	text-align: center;
+	height: 40px;
+	color: white;
+	background-color: green;
+	width: 1120px;
+	}
