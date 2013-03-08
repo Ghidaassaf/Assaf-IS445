@@ -4,3 +4,10 @@ aside
 	left: 60px;
 	top: 720px;
 	}
+
+body
+{
+position: absolute;
+	top:0px;
+	left:0px;
+}
