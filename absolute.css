@@ -1,8 +1,8 @@
 aside
 	{
 	position:absolute;
-	left: 60px;
-	top: 720px;
+	left: 720px;
+	top: 60px;
 	}
 
 body
@@ -12,7 +12,3 @@ position: absolute;
 	left:0px;
 }
 
-body
-{
-
-}
