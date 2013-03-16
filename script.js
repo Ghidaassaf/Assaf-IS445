@@ -1,12 +1,12 @@
 function enterNumber_prompt() 
 {
-<<<<<<< HEAD
+HEAD
 
 
     document.writeln("<h1>Assaf, Ghida - Homework 5</h1>")
-=======
+
     document.writeln("<h1>Le, Phuc - Homework 5</h1>")
->>>>>>> parent of ec88745... script.js
+ parent of ec88745... script.js
     var number = prompt("Please enter a number between 2 and 10:", "")
 
 
