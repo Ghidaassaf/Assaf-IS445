@@ -6,7 +6,6 @@ function enterNumber_prompt()
 
 
 if (number < 2 || number > 10)
-
 {
 
 document.writeln("<h2>Your input is " + number + ". The valid input number is between 2 and 10. Please reload this page and try again.")
@@ -35,7 +34,6 @@ document.writeln("<h2>Your input is " + number + ". The valid input number is be
         }
 
         document.writeln(star + "</div>")
-
-
-    }
+  
+  }
 }
