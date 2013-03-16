@@ -1,12 +1,23 @@
 function enterNumber_prompt() 
 {
+
+
     document.writeln("<h1>Assaf, Ghida - Homework 5</h1>")
     var number = prompt("Please enter a number between 2 and 10:", "")
 
 
-    if (number < 2 || number > 10)
- {
-        document.writeln("<h2>Your input is " + number + ". The valid input number is between 2 and 10. Please reload this page and try again.")
+    
+
+
+if (number < 2 || number > 10)
+ 
+
+
+{
+
+
+
+document.writeln("<h2>Your input is " + number + ". The valid input number is between 2 and 10. Please reload this page and try again.")
     }
     else {
         document.writeln("<h2>Your input number is " + number + " </h2>")
