@@ -1,0 +1,5 @@
+E:\Assaf-IS445\hw3\hw3\bin\hw3.dll
+E:\Assaf-IS445\hw3\hw3\bin\hw3.pdb
+E:\Assaf-IS445\hw3\hw3\obj\Debug\ResolveAssemblyReference.cache
+E:\Assaf-IS445\hw3\hw3\obj\Debug\hw3.dll
+E:\Assaf-IS445\hw3\hw3\obj\Debug\hw3.pdb
