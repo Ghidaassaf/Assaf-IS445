@@ -11,7 +11,7 @@ namespace Final
 {
 
 
-    public partial class WebForm12
+    public partial class WebForm11
     {
     }
 }
