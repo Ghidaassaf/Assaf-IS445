@@ -1,0 +1,41 @@
+﻿#Menu1 li a.level1 
+{
+    margin-right: 30px;
+}
+
+p
+{
+    height: auto;
+    float: right ;
+    min-height: 350px;
+    border: 1px solid blue;
+    
+   
+}
+
+body
+{
+    width: 900px;
+    margin: auto;
+    height: auto;
+}
+
+div.tree
+{
+    float: left;
+    width: 190px;
+    
+}
+
+div.content
+{
+    height:auto;
+    float:right;
+    width: 700px;
+}
+
+nav
+{
+    background-color: Aqua;
+}
+

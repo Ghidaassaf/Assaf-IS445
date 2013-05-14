@@ -1,8 +1,0 @@
-C:\Users\Public\Documents\New folder\Hw7\Hw7\bin\Hw7.dll
-C:\Users\Public\Documents\New folder\Hw7\Hw7\bin\Hw7.pdb
-C:\Users\Public\Documents\New folder\Hw7\Hw7\bin\Hw7.xml
-C:\Users\Public\Documents\New folder\Hw7\Hw7\obj\Debug\Hw7.Resources.resources
-C:\Users\Public\Documents\New folder\Hw7\Hw7\obj\Debug\Hw7.vbproj.GenerateResource.Cache
-C:\Users\Public\Documents\New folder\Hw7\Hw7\obj\Debug\Hw7.dll
-C:\Users\Public\Documents\New folder\Hw7\Hw7\obj\Debug\Hw7.xml
-C:\Users\Public\Documents\New folder\Hw7\Hw7\obj\Debug\Hw7.pdb
