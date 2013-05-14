@@ -73,9 +73,10 @@
     <Content Include="Demos\ClientSide\ClientSide.aspx" />
     <Content Include="Demos\ClientSide\NestedLoop.aspx" />
     <Content Include="Demos\ClientSide\NumberDivision.aspx" />
-    <Content Include="ServerSide\ServerSide.aspx" />
-    <Content Include="ServerSide\NestedLoop.aspx" />
-    <Content Include="ServerSide\NumberDivision.aspx" />
+    <Content Include="Demos\ServerSide.aspx" />
+    <Content Include="Demos\ServerSide\NestedLoop.aspx" />
+    <Content Include="Demos\ServerSide\NumberDivision.aspx" />
+    <Content Include="Demos\Demo.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -142,26 +143,33 @@
     <Compile Include="Demos\ClientSide\NumberDivision.aspx.designer.cs">
       <DependentUpon>NumberDivision.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ServerSide\ServerSide.aspx.cs">
+    <Compile Include="Demos\ServerSide.aspx.cs">
       <DependentUpon>ServerSide.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ServerSide\ServerSide.aspx.designer.cs">
+    <Compile Include="Demos\ServerSide.aspx.designer.cs">
       <DependentUpon>ServerSide.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ServerSide\NestedLoop.aspx.cs">
+    <Compile Include="Demos\ServerSide\NestedLoop.aspx.cs">
       <DependentUpon>NestedLoop.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ServerSide\NestedLoop.aspx.designer.cs">
+    <Compile Include="Demos\ServerSide\NestedLoop.aspx.designer.cs">
       <DependentUpon>NestedLoop.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ServerSide\NumberDivision.aspx.cs">
+    <Compile Include="Demos\ServerSide\NumberDivision.aspx.cs">
       <DependentUpon>NumberDivision.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ServerSide\NumberDivision.aspx.designer.cs">
+    <Compile Include="Demos\ServerSide\NumberDivision.aspx.designer.cs">
       <DependentUpon>NumberDivision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\Demo.aspx.cs">
+      <DependentUpon>Demo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demos\Demo.aspx.designer.cs">
+      <DependentUpon>Demo.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
